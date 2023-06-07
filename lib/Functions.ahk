@@ -62,7 +62,7 @@ WM_MOUSEMOVE(wParam, lParam)
 {
   If (A_TimeIdle < 500)
   {
-    Loop, 4
+    Loop, 20
     {
       ToolTip("", , , A_Index)
     }
@@ -92,7 +92,7 @@ WM_MOUSEMOVE(wParam, lParam)
     }
     Else
     {
-      ToolTip("", , , 1)
+      ToolTip("", , , 5)
     }
     If (control == "Edit1")
     {

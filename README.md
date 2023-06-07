@@ -30,10 +30,6 @@ Icon:
 
 ---
 
-- [ ] TODO Add System Tray menu
-
----
-
 ## [LICENSE](./LICENSE)
 
 ![License Info](https://img.shields.io/github/license/Lateralus138/unishellectv2?style=for-the-badge&labelColor=1D1D1D&color=ffff99)
