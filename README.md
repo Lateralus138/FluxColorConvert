@@ -14,6 +14,12 @@ The gui for this is written in `AutoHotkey` with my custom [_Gui class library](
 
 ---
 
+[codefactor.io/FluxColorConvert](https://www.codefactor.io/repository/github/lateralus138/FluxColorConvert)
+
+![](https://img.shields.io/codefactor/grade/github/Lateralus138/FluxColorConvert/master?style=for-the-badge&labelColor=1D1D1D&color=ffff99)
+
+---
+
 Preview:
 
 ![Preview](docs/media/screenshots/Screenshot%202023-06-06%20230851.png)
