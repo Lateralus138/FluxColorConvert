@@ -2,6 +2,9 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Lateralus138&repo=FluxColorConvert)
 
+---
+---
+
 ***This project is*** ![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACmElEQVQokUWSa0iTcRTGn//26u4b6ZQ0U8lKMqykwPpgZVBEHyLp8jEoIZJADCQ0iCiStIwuZmHRioIuroQss2VkrkIrdeFckiZqdhctTXPOve8Tr7M6X8/zO+fwPEfIwy7IwQA0GgExGYQwyhCmMLRX1z2hJCJSN+xZgqAZnPgCaAUQ0EHICjSYLlKBCDdNQb7HLmeRoy3zQFnzYk/1WTckGUIXCVD+Kw+BpAxtuBXCpkN7bdXt/JL3W3J3xuHg3iTsL/NkNFWVPoWkQOj/wxooCrRhFgiTjI4n9ZVHHQObjxVEY8UGIi1zEhVFCahwdq5qvn+hHkKC0EcBigxwvAnkW3ge7L6TMi+VztOLOOKOY8ulKL68GM2emnjeLF3AZSlz2FCZ6yaHwLGv6pkv8MyxsUoHLcsLwBuHwE0rtdy2UuLWNTpmpkkszQEfnAPDAd47tbaB7NaJR+eXujfmtGTUXgFWp5uwPd8Oi1GBJEmwWYlP34L4PSFw7chPeD+MYnkWUVmy0CeNfe5N8ANIjNWpNmHzqklYrDIGRwRm2gXsM/xofRMOf1AgcbYOAfgxMvgxCmS9+dbh5A6VarxuIMdBDoJ0g+vSreytNpAEux7qqWrK82I+kC2xYOAzyFbz5QNJPrXhdRo4XK/n3WILkxPsbKqwsr8xBB3PjukhGyJJv+qqB+QvkN0mR2Fim5pU1hobzxTYOPbcyJoTNpoAlu6wdZKvIslR0O9VXe0Clc5p2Ge4WDh36ux3ThM/1RqnNhXvilU32cjvINtAf4cKdkzlSHpBTqgNY11JfLtFA+o14NU8Wx/piggNfg2yGVR8EF9/dP37PyCIoDQLs8z9hmv71nsC4wFz9klX2tD4/AEG+gBoQ7KghD8MZ2xdnt7s7wAAAABJRU5ErkJggg==&label=Under&message=Construction&style=for-the-badge&labelColor=1D1D1D&color=ffff99)
 
 Coming Soon!
@@ -13,39 +16,27 @@ This is complete, but not officially released and may be deleted and re-uploaded
 The gui for this is written in `AutoHotkey` with my custom [_Gui class library](https://github.com/Lateralus138/AutoHotkey-Gui-Class), but the main functions for color conversion are from my custom [AutoHotkey DLL function library](https://github.com/Lateralus138/AutoHotkeyFluxDLL) written in C++.
 
 ---
----
----
----
----
----
-
-Preview:
-
-![Preview](docs/media/screenshots/Screenshot%202023-06-06%20230851.png)
-
-Icon:
-
-![Icon](docs/media/logo/FluxColorConvert.png)
-
----
----
----
----
----
----
 
 README TODO
 
-- [ ] About
-  - [ ] Description
-  - [ ] Motivation
-- [ ] Usage
-  - [ ] Enivronment
-  - [ ] How To Use
-  - [ ] Examples
+- [x] About
+  - [x] Description
+  - [x] Motivation
+- [x] Usage
+  - [x] Enivronment
+  - [x] How To Use
+    - [x] Install
+    - [x] Portable
+  - [x] Examples
 - [x] Project Information
   - [x] Add 'Written in...' section similar to C++ with an endpoint JSON file
-- [ ] Media 
+- [x] Notes
+- [x] Media 
+
+---
+---
+
+<!-- TODO: Add TOC here -->
 
 ---
 
@@ -53,7 +44,13 @@ README TODO
 
 ### Description
 
+&#x47;&#x75;&#x69;&#x20;&#x74;&#x6f;&#x20;&#x63;&#x6f;&#x6e;&#x76;&#x65;&#x72;&#x74;&#x20;&#x68;&#x65;&#x78;&#x61;&#x64;&#x65;&#x63;&#x69;&#x6d;&#x61;&#x6c;&#x20;&#x63;&#x6f;&#x6c;&#x6f;&#x72;&#x73;&#x20;&#x74;&#x6f;&#x20;&#x64;&#x65;&#x63;&#x69;&#x6d;&#x61;&#x6c;&#x20;&#x52;&#x47;&#x42;&#x20;&#x66;&#x6f;&#x72;&#x6d;&#x61;&#x74;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x76;&#x69;&#x63;&#x65;&#x20;&#x76;&#x65;&#x72;&#x73;&#x61;&#x20;&#x77;&#x69;&#x74;&#x68;&#x20;&#x61;&#x20;&#x66;&#x65;&#x77;&#x20;&#x6f;&#x70;&#x74;&#x69;&#x6f;&#x6e;&#x73;&#x20;&#x66;&#x6f;&#x72;&#x20;&#x74;&#x68;&#x65;&#x20;&#x6f;&#x75;&#x74;&#x70;&#x75;&#x74;&#x73;&#x20;&#x66;&#x6f;&#x72;&#x6d;&#x61;&#x74;&#x20;&lpar;&#x70;&#x72;&#x65;&#x70;&#x65;&#x6e;&#x64;&#x20;&apos;&#x30;&#x78;&apos;&comma;&#x20;&apos;&num;&apos;&comma;&#x20;&#x6f;&#x72;&#x20;&#x6e;&#x6f;&#x74;&#x68;&#x69;&#x6e;&#x67;&#x20;&#x74;&#x6f;&#x20;&#x74;&#x68;&#x65;&#x20;&#x68;&#x65;&#x78;&#x61;&#x64;&#x65;&#x63;&#x69;&#x6d;&#x61;&#x6c;&#x20;&#x6f;&#x75;&#x74;&#x70;&#x75;&#x74;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x74;&#x68;&#x65;&#x20;&#x6f;&#x70;&#x74;&#x69;&#x6f;&#x6e;&#x20;&#x74;&#x6f;&#x20;&#x61;&#x75;&#x74;&#x6f;&#x6d;&#x61;&#x74;&#x69;&#x63;&#x61;&#x6c;&#x6c;&#x79;&#x20;&#x63;&#x6f;&#x70;&#x79;&#x20;&#x74;&#x68;&#x65;&#x20;&#x6f;&#x75;&#x74;&#x70;&#x75;&#x74;&#x20;&#x74;&#x6f;&#x20;&#x74;&#x68;&#x65;&#x20;&#x63;&#x6c;&#x69;&#x70;&#x62;&#x6f;&#x61;&#x72;&#x64;&rpar;&period;
+
+&#x54;&#x68;&#x69;&#x73;&#x20;&#x69;&#x73;&#x20;&#x61;&#x20;&#x68;&#x79;&#x62;&#x72;&#x69;&#x64;&#x20;&#x70;&#x72;&#x6f;&#x67;&#x72;&#x61;&#x6d;&semi;&#x20;&#x74;&#x68;&#x65;&#x20;**gui**&#x20;&#x69;&#x73;&#x20;&#x77;&#x72;&#x69;&#x74;&#x74;&#x65;&#x6e;&#x20;&#x69;&#x6e;&#x20;***AutoHotkey***<sup>[[1](#note-1)]</sup>&#x20;&#x61;&#x6e;&#x64;&#x20;&#x74;&#x68;&#x65;&#x20;&#x63;&#x6f;&#x6e;&#x76;&#x65;&#x72;&#x73;&#x69;&#x6f;&#x6e;&#x20;**functions**&#x20;&#x61;&#x72;&#x65;&#x20;&#x77;&#x72;&#x69;&#x74;&#x74;&#x65;&#x6e;&#x20;&#x69;&#x6e;&#x20;***C++***&period;
+
 ### Motivation
+
+&#x49;&#x20;&#x75;&#x73;&#x65;&#x20;&#x63;&#x6f;&#x6c;&#x6f;&#x72;&#x73;&#x20;&#x69;&#x6e;&#x20;&#x6d;&#x61;&#x6e;&#x79;&#x20;&#x74;&#x68;&#x69;&#x6e;&#x67;&#x73;&#x20;&#x6c;&#x69;&#x6b;&#x65;&#x20;&#x70;&#x72;&#x6f;&#x67;&#x72;&#x61;&#x6d;&#x6d;&#x69;&#x6e;&#x67;&comma;&#x20;&#x77;&#x65;&#x62;&#x20;&#x64;&#x65;&#x73;&#x69;&#x67;&#x6e;&comma;&#x20;&#x67;&#x72;&#x61;&#x70;&#x68;&#x69;&#x63;&#x20;&#x64;&#x65;&#x73;&#x69;&#x67;&#x6e;&comma;&#x20;&#x63;&#x6f;&#x6e;&#x66;&#x69;&#x67;&#x75;&#x72;&#x61;&#x74;&#x69;&#x6f;&#x6e;&#x20;&#x66;&#x69;&#x6c;&#x65;&#x73;&comma;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x6d;&#x6f;&#x72;&#x65;&#x20;&#x73;&#x6f;&#x20;&#x49;&#x20;&#x6f;&#x66;&#x74;&#x65;&#x6e;&#x20;&#x6e;&#x65;&#x65;&#x64;&#x20;&#x74;&#x6f;&#x20;&#x63;&#x6f;&#x6e;&#x76;&#x65;&#x72;&#x74;&#x20;&#x74;&#x68;&#x65;&#x20;&#x76;&#x61;&#x6c;&#x75;&#x65;&#x73;&#x20;&#x66;&#x6f;&#x72;&#x20;&#x74;&#x68;&#x65;&#x20;&#x76;&#x61;&#x72;&#x69;&#x6f;&#x75;&#x73;&#x20;&#x66;&#x6f;&#x72;&#x6d;&#x61;&#x74;&#x73;&period;&#x20;&#x54;&#x68;&#x69;&#x73;&#x20;&#x74;&#x6f;&#x6f;&#x6c;&#x20;&#x68;&#x65;&#x6c;&#x70;&#x73;&#x20;&#x77;&#x69;&#x74;&#x68;&#x20;&#x74;&#x68;&#x61;&#x74;&period;
 
 ---
 
@@ -73,9 +70,33 @@ README TODO
 
 ### Environment
 
+&#x54;&#x68;&#x69;&#x73;&#x20;&#x69;&#x73;&#x20;&#x61;&#x20;&#x57;&#x69;&#x6e;&#x64;&#x6f;&#x77;&#x73;&#x20;&#x67;&#x75;&#x69;&#x20;&#x74;&#x6f;&#x6f;&#x6c;&#x20;&#x74;&#x68;&#x61;&#x74;&#x20;&#x63;&#x61;&#x6e;&#x20;&#x62;&#x65;&#x20;&#x69;&#x6e;&#x73;&#x74;&#x61;&#x6c;&#x6c;&#x65;&#x64;&#x20;&#x6f;&#x72;&#x20;&#x75;&#x73;&#x65;&#x64;&#x20;&#x70;&#x6f;&#x72;&#x74;&#x61;&#x62;&#x6c;&#x79;&period;
+
 ### How To Use
 
+#### Install
+
+&#x41;&#x6e;&#x20;&#x69;&#x6e;&#x73;&#x74;&#x61;&#x6c;&#x6c;&#x65;&#x72;&#x20;&#x69;&#x73;&#x20;&#x70;&#x72;&#x6f;&#x76;&#x69;&#x64;&#x65;&#x64;&#x20;&#x69;&#x6e;&#x20;&#x74;&#x68;&#x65;&#x20;[Releases](https://github.com/Lateralus138/FluxColorConvert/releases)&#x20;&#x73;&#x65;&#x63;&#x74;&#x69;&#x6f;&#x6e;&#x20;&#x74;&#x68;&#x61;&#x74;&#x20;&#x69;&#x6e;&#x73;&#x74;&#x61;&#x6c;&#x6c;&#x73;&#x20;&#x74;&#x68;&#x69;&#x73;&#x20;&#x74;&#x6f;&#x20;*Program Files*&#x20;&#x69;&#x6e;&#x20;&#x74;&#x68;&#x65;&#x20;*Flux Color Convert*&#x20;&#x64;&#x69;&#x72;&#x65;&#x63;&#x74;&#x6f;&#x72;&#x79;&period;&#x20;&#x54;&#x68;&#x65;&#x20;&#x69;&#x6e;&#x73;&#x74;&#x61;&#x6c;&#x6c;&#x65;&#x72;&#x20;&#x70;&#x72;&#x6f;&#x76;&#x69;&#x64;&#x65;&#x73;&#x20;&#x61;&#x20;&#x77;&#x61;&#x79;&#x20;&#x74;&#x6f;&#x20;&#x75;&#x6e;&#x69;&#x6e;&#x73;&#x74;&#x61;&#x6c;&#x6c;&#x20;&#x74;&#x68;&#x65;&#x20;&#x70;&#x72;&#x6f;&#x67;&#x72;&#x61;&#x6d;&#x20;&#x6c;&#x69;&#x6b;&#x65;&#x20;&#x79;&#x6f;&#x75;&#x20;&#x77;&#x6f;&#x75;&#x6c;&#x64;&#x20;&#x61;&#x6e;&#x79;&#x20;&#x6f;&#x74;&#x68;&#x65;&#x72;&#x20;&#x69;&#x6e;&#x73;&#x74;&#x61;&#x6c;&#x6c;&#x61;&#x62;&#x6c;&#x65;&#x20;&#x70;&#x72;&#x6f;&#x67;&#x72;&#x61;&#x6d;&#x20;&#x69;&#x6e;&#x20;&#x57;&#x69;&#x6e;&#x64;&#x6f;&#x77;&#x73;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x69;&#x74;&#x20;&#x61;&#x6c;&#x73;&#x6f;&#x20;&#x63;&#x72;&#x65;&#x61;&#x74;&#x65;&#x73;&#x20;&#x61;&#x20;&#x70;&#x72;&#x6f;&#x67;&#x72;&#x61;&#x6d;&#x20;&#x73;&#x68;&#x6f;&#x72;&#x74;&#x63;&#x75;&#x74;&#x20;&#x66;&#x6f;&#x72;&#x20;&#x79;&#x6f;&#x75;&#x72;&#x20;&#x53;&#x74;&#x61;&#x72;&#x74;&#x20;&#x4d;&#x65;&#x6e;&#x75;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x61;&#x6c;&#x6c;&#x6f;&#x77;&#x73;&#x20;&#x63;&#x72;&#x65;&#x61;&#x74;&#x69;&#x6f;&#x6e;&#x20;&#x6f;&#x66;&#x20;&#x61;&#x20;&#x44;&#x65;&#x73;&#x6b;&#x74;&#x6f;&#x70;&#x20;&#x73;&#x68;&#x6f;&#x72;&#x74;&#x63;&#x75;&#x74;&period;
+
+#### Portable
+
+&#x59;&#x6f;&#x75;&#x20;&#x63;&#x61;&#x6e;&#x20;&#x75;&#x73;&#x65;&#x20;&#x74;&#x68;&#x69;&#x73;&#x20;&#x70;&#x6f;&#x72;&#x74;&#x61;&#x62;&#x6c;&#x79;&#x20;&#x69;&#x66;&#x20;&#x79;&#x6f;&#x75;&#x20;&#x6c;&#x69;&#x6b;&#x65;&comma;&#x20;&#x62;&#x75;&#x74;&#x20;&#x69;&#x74;&#x20;&#x6e;&#x65;&#x67;&#x61;&#x74;&#x65;&#x73;&#x20;&#x74;&#x68;&#x65;&#x20;&#x63;&#x6f;&#x6e;&#x76;&#x65;&#x6e;&#x69;&#x65;&#x6e;&#x63;&#x65;&#x73;&#x20;&#x6f;&#x66;&#x20;&#x74;&#x68;&#x65;&#x20;&#x69;&#x6e;&#x73;&#x74;&#x61;&#x6c;&#x6c;&#x65;&#x72;&period;
+
+&#x54;&#x6f;&#x20;&#x75;&#x73;&#x65;&#x20;&#x70;&#x6f;&#x72;&#x74;&#x61;&#x62;&#x6c;&#x79;&#x20;&#x6a;&#x75;&#x73;&#x74;&#x20;&#x64;&#x6f;&#x77;&#x6e;&#x6c;&#x6f;&#x61;&#x64;&#x20;&#x74;&#x68;&#x65;&#x20;[`FluxColorConvert.exe`](FluxColorConvert.exe)&#x20;&#x65;&#x78;&#x65;&#x63;&#x75;&#x74;&#x61;&#x62;&#x6c;&#x65;&comma;&#x20;&#x74;&#x68;&#x65;&#x20;&#x63;&#x6f;&#x6e;&#x74;&#x65;&#x6e;&#x74;&#x73;&#x20;&#x6f;&#x66;&#x20;[`./lib/`](./lib/)&#x20;&#x64;&#x69;&#x72;&#x65;&#x63;&#x74;&#x6f;&#x72;&#x79;&comma;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x74;&#x68;&#x65;&#x20;&#x63;&#x6f;&#x6e;&#x74;&#x65;&#x6e;&#x74;&#x73;&#x20;&#x6f;&#x66;&#x20;&#x74;&#x68;&#x65;&#x20;[`./resources/`](./resources/)&#x20;&#x64;&#x69;&#x72;&#x65;&#x63;&#x74;&#x6f;&#x72;&#x79;&#x20;&#x66;&#x72;&#x6f;&#x6d;&#x20;&#x74;&#x68;&#x65;&#x20;&#x72;&#x6f;&#x6f;&#x74;&#x20;&#x6f;&#x66;&#x20;&#x74;&#x68;&#x69;&#x73;&#x20;&#x70;&#x72;&#x6f;&#x6a;&#x65;&#x63;&#x74;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x70;&#x6c;&#x61;&#x63;&#x65;&#x20;&#x74;&#x68;&#x65;&#x20;&#x65;&#x78;&#x65;&#x63;&#x75;&#x74;&#x61;&#x62;&#x6c;&#x65;&#x20;&#x61;&#x6e;&#x79;&#x77;&#x68;&#x65;&#x72;&#x65;&#x20;&#x79;&#x6f;&#x75;&#x20;&#x6c;&#x69;&#x6b;&#x65;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x63;&#x72;&#x65;&#x61;&#x74;&#x65;&#x20;&#x74;&#x68;&#x65;&#x20;`lib`&#x20;&#x61;&#x6e;&#x64;&#x20;`directories`&#x20;&#x69;&#x6e;&#x20;&#x74;&#x68;&#x65;&#x20;&#x73;&#x61;&#x6d;&#x65;&#x20;&#x64;&#x69;&#x72;&#x65;&#x63;&#x74;&#x6f;&#x72;&#x79;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x70;&#x6c;&#x61;&#x63;&#x65;&#x20;&#x74;&#x68;&#x65;&#x20;&#x65;&#x78;&#x74;&#x72;&#x61;&#x20;&#x66;&#x69;&#x6c;&#x65;&#x73;&#x20;&#x69;&#x6e;&#x20;&#x74;&#x68;&#x65;&#x69;&#x72;&#x20;&#x63;&#x6f;&#x72;&#x72;&#x65;&#x73;&#x70;&#x6f;&#x6e;&#x64;&#x69;&#x6e;&#x67;&#x20;&#x64;&#x69;&#x72;&#x65;&#x63;&#x74;&#x6f;&#x72;&#x69;&#x65;&#x73;&period;
+
+&#x49;&#x66;&#x20;&#x79;&#x6f;&#x75;&#x20;&#x75;&#x73;&#x65;&#x20;&#x67;&#x69;&#x74;&#x20;&#x79;&#x6f;&#x75;&#x20;&#x63;&#x61;&#x6e;&#x20;&#x61;&#x6c;&#x73;&#x6f;&#x20;&#x6a;&#x75;&#x73;&#x74;&#x20;&#x63;&#x6c;&#x6f;&#x6e;&#x65;&#x20;&#x74;&#x68;&#x69;&#x73;&#x20;&#x72;&#x65;&#x70;&#x6f;&#x73;&#x69;&#x74;&#x6f;&#x72;&#x79;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x75;&#x73;&#x65;&#x20;&#x66;&#x72;&#x6f;&#x6d;&#x20;&#x74;&#x68;&#x65;&#x72;&#x65;&#x20;&#x6f;&#x72;&#x20;&#x64;&#x6f;&#x77;&#x6e;&#x6c;&#x6f;&#x61;&#x64;&#x20;&#x74;&#x68;&#x65;&#x20;&#x61;&#x66;&#x6f;&#x72;&#x65;&#x20;&#x6d;&#x65;&#x6e;&#x74;&#x69;&#x6f;&#x6e;&#x65;&#x64;&#x20;&#x66;&#x69;&#x6c;&#x65;&#x73;&#x20;&#x61;&#x6e;&#x64;&#x20;&#x64;&#x69;&#x72;&#x65;&#x63;&#x74;&#x6f;&#x72;&#x69;&#x65;&#x73;&#x20;&#x74;&#x6f;&#x20;&#x77;&#x68;&#x65;&#x72;&#x65;&#x76;&#x65;&#x72;&#x20;&#x79;&#x6f;&#x75;&#x20;&#x6c;&#x69;&#x6b;&#x65;&period;
+
+&#x54;&#x6f;&#x20;&#x63;&#x6c;&#x6f;&#x6e;&#x65;&colon;
+
+```
+git clone "https://github.com/Lateralus138/FluxColorConvert.git"
+```
+
 ### Examples
+
+Convert the the RGB value `255 127 255` to its correspoding hexadecimal value `0xFF7FFF` prepending with *0x* for use in lower level programming and in uppercase rather than the default lower case:
+
+![Preview](docs/media/screenshots/Screenshot%202023-06-06%20230851.png)
 
 ---
 
@@ -116,6 +137,22 @@ README TODO
 ---
 
 ## Media
+
+Program's icon (made by me):
+
+![LOGO](docs/media/logo/FluxColorConvert.png)
+
+---
+
+## Notes
+
+Any web queries are done at DuckDuckGo.
+
+### Note 1
+
+Web query for "AutoHotkey"
+
+[AutoHoey search @ DDG](https://duckduckgo.com/?q=Autohotkey&ia=web)
 
 ---
 
