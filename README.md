@@ -93,17 +93,13 @@ README TODO
 |:---:|:---:|
 |[codefactor.io](https://www.codefactor.io/repository/github/lateralus138/FluxColorConvert)|![](https://img.shields.io/codefactor/grade/github/Lateralus138/FluxColorConvert/master?style=for-the-badge&labelColor=1D1D1D&color=ffff99)|
 
-<!-- ### File MD5 Hashes
+### File MD5 Hashes
 
 &#x41;&#x6c;&#x6c;&#x20;&#x68;&#x61;&#x73;&#x68;&#x65;&#x73;&#x20;&#x61;&#x72;&#x65;&#x20;&#x72;&#x65;&#x74;&#x72;&#x69;&#x65;&#x76;&#x65;&#x64;&#x20;&#x61;&#x74;&#x20;&#x63;&#x6f;&#x6d;&#x70;&#x69;&#x6c;&#x65;&#x2f;&#x62;&#x75;&#x69;&#x6c;&#x64;&#x20;&#x74;&#x69;&#x6d;&#x65;&#x2e;
 
-### Current Windows X86 MD5
+### Current Windows X64 Installer MD5
 
-![WINDOWS X86 MD5](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lateralus138/FluxColorConvert/master/docs/json/FluxColorConvert_x86_md5.json)
-
-### Current Windows X64 MD5
-
-![WINDOWS X64 MD5](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lateralus138/FluxColorConvert/master/docs/json/FluxColorConvert_x64_md5.json) -->
+![WINDOWS X64 MD5](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lateralus138/FluxColorConvert/master/docs/json/FluxColorConvert_x64_Installer_md5.json)
 
 ### Other Miscellaneous File Information
 
