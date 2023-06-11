@@ -38,7 +38,7 @@ jobs:
         $file = ".\docs\json\FluxColorConvert_x64_Installer_md5.json"
         $md5 = New-Object -TypeName System.Security.Cryptography.MD5CryptoServiceProvider
         $(Get-FileHash -Path "installer\FluxColorConvert_x64_Installer.exe" -Algorithm MD5).Hash
-        $hash = $(Get-FileHash -Path "build\windows\x86\boxunichars-x86.exe" -Algorithm MD5).Hash
+        $hash = $(Get-FileHash -Path "installer\FluxColorConvert_x64_Installer.exe" -Algorithm MD5).Hash
         ((Get-Content -path $file -Raw) -replace 'PLACEHOLDER',$hash) | Set-Content -Path "$file"
         git add .\docs\json\*
         git config --global user.name 'Lateralus138'
