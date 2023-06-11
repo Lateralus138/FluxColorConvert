@@ -2,7 +2,7 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Lateralus138&repo=FluxColorConvert)
 
----
+<!-- ---
 ---
 
 ***This project is*** ![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACmElEQVQokUWSa0iTcRTGn//26u4b6ZQ0U8lKMqykwPpgZVBEHyLp8jEoIZJADCQ0iCiStIwuZmHRioIuroQss2VkrkIrdeFckiZqdhctTXPOve8Tr7M6X8/zO+fwPEfIwy7IwQA0GgExGYQwyhCmMLRX1z2hJCJSN+xZgqAZnPgCaAUQ0EHICjSYLlKBCDdNQb7HLmeRoy3zQFnzYk/1WTckGUIXCVD+Kw+BpAxtuBXCpkN7bdXt/JL3W3J3xuHg3iTsL/NkNFWVPoWkQOj/wxooCrRhFgiTjI4n9ZVHHQObjxVEY8UGIi1zEhVFCahwdq5qvn+hHkKC0EcBigxwvAnkW3ge7L6TMi+VztOLOOKOY8ulKL68GM2emnjeLF3AZSlz2FCZ6yaHwLGv6pkv8MyxsUoHLcsLwBuHwE0rtdy2UuLWNTpmpkkszQEfnAPDAd47tbaB7NaJR+eXujfmtGTUXgFWp5uwPd8Oi1GBJEmwWYlP34L4PSFw7chPeD+MYnkWUVmy0CeNfe5N8ANIjNWpNmHzqklYrDIGRwRm2gXsM/xofRMOf1AgcbYOAfgxMvgxCmS9+dbh5A6VarxuIMdBDoJ0g+vSreytNpAEux7qqWrK82I+kC2xYOAzyFbz5QNJPrXhdRo4XK/n3WILkxPsbKqwsr8xBB3PjukhGyJJv+qqB+QvkN0mR2Fim5pU1hobzxTYOPbcyJoTNpoAlu6wdZKvIslR0O9VXe0Clc5p2Ge4WDh36ux3ThM/1RqnNhXvilU32cjvINtAf4cKdkzlSHpBTqgNY11JfLtFA+o14NU8Wx/piggNfg2yGVR8EF9/dP37PyCIoDQLs8z9hmv71nsC4wFz9klX2tD4/AEG+gBoQ7KghD8MZ2xdnt7s7wAAAABJRU5ErkJggg==&label=Under&message=Construction&style=for-the-badge&labelColor=1D1D1D&color=ffff99)
@@ -15,28 +15,29 @@ This is complete, but not officially released and may be deleted and re-uploaded
 
 The gui for this is written in `AutoHotkey` with my custom [_Gui class library](https://github.com/Lateralus138/AutoHotkey-Gui-Class), but the main functions for color conversion are from my custom [AutoHotkey DLL function library](https://github.com/Lateralus138/AutoHotkeyFluxDLL) written in C++.
 
----
+--- -->
 
-README TODO
+- [Flux Color Convert ](#flux-color-convert-)
+  - [About](#about)
+    - [Description](#description)
+    - [Motivation](#motivation)
+  - [Support Me If You Like](#support-me-if-you-like)
+  - [Usage](#usage)
+    - [Environment](#environment)
+    - [How To Use](#how-to-use)
+      - [Install](#install)
+      - [Portable](#portable)
+    - [Examples](#examples)
+  - [Project Information](#project-information)
+    - [Source File Quality](#source-file-quality)
+    - [File MD5 Hashes](#file-md5-hashes)
+    - [Current Windows X64 Installer MD5](#current-windows-x64-installer-md5)
+    - [Other Miscellaneous File Information](#other-miscellaneous-file-information)
+  - [Media](#media)
+  - [Notes](#notes)
+    - [Note 1](#note-1)
+  - [LICENSE](#license)
 
-- [x] About
-  - [x] Description
-  - [x] Motivation
-- [x] Usage
-  - [x] Enivronment
-  - [x] How To Use
-    - [x] Install
-    - [x] Portable
-  - [x] Examples
-- [x] Project Information
-  - [x] Add 'Written in...' section similar to C++ with an endpoint JSON file
-- [x] Notes
-- [x] Media 
-
----
----
-
-<!-- TODO: Add TOC here -->
 
 ---
 
