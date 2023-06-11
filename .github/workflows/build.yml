@@ -2,7 +2,7 @@ name: Build Flux Color Convert Windows
 on:
   push:
     paths:
-      - 'installer\FluxColorConvert_x64_Installer.exe'
+      - '**FluxColorConvert_x64_Installer.exe'
 env:
   VS_PROGRAM: 1
   VS_FILE: 0
